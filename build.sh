@@ -1,0 +1,1 @@
+eval g++ main.cpp fft.cpp $(pkg-config --libs --cflags raylib) -std=c++17 -o main
